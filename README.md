@@ -8,7 +8,7 @@ Trends Finder is a powerful tool designed to identify current trends across mult
 
 To initiate Trends Finder, follow these steps:
 
-1. **Download**: Clone or download the Trends Finder repository from [GitHub link](your-github-link).
+1. **Download**: Clone or download the Trends Finder repository from [GitHub link](https://github.com/Ento9/Trends-Finder).
    
 2. **Installation**: Ensure you have the necessary dependencies installed on your system.
 
