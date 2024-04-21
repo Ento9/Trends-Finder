@@ -32,7 +32,7 @@ To initiate Trends Finder, follow these steps:
 
 ## License
 
-Trends Finder is licensed under the [GNU General Public License v3.0](LICENSE.md). See the [LICENSE](LICENSE.md) file for more details.
+Trends Finder is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html#license-text). See the [LICENSE](https://github.com/Ento9/Trends-Finder/blob/main/LICENSE) file for more details.
 
 ## Feedback
 
