@@ -28,10 +28,10 @@ echo "----**BY ENTO9**---V0.2---------------------------------------------------
 echo ""
 echo "(CA) Get Info..."
 
-sudo chmod +x /dist/CA-search
-sudo chmod +x /dist/US-search
-sudo chmod +x /dist/MX-search
-sudo chmod +x /dist/FR-search
+sudo chmod +x dist/CA-search
+sudo chmod +x dist/US-search
+sudo chmod +x dist/MX-search
+sudo chmod +x dist/FR-search
 
 ./dist/CA-search
 
