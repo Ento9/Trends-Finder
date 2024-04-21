@@ -1,0 +1,17 @@
+
+      <img src="https://www.gstatic.com/images/branding/lockups/1x/lockup_trends_color_142x24dp.png" alt="Google Trends">
+    
+      <div class="title ng-binding">KKR vs RCB</div>
+      <div class="traffic-count ng-binding">2K+ searches</div>
+    
+      <div class="title ng-binding">Chinese Grand Prix</div>
+      <div class="traffic-count ng-binding">2K+ searches</div>
+    
+      <div class="title ng-binding">NLL</div>
+      <div class="traffic-count ng-binding">2K+ searches</div>
+    
+      <div class="title ng-binding">Playoffs</div>
+      <div class="traffic-count ng-binding">2K+ searches</div>
+    
+      <img src="https://www.gstatic.com/images/branding/lockups/1x/lockup_trends_color_142x24dp.png" alt="Google Trends">
+    

@@ -1,0 +1,17 @@
+
+      <img src="https://www.gstatic.com/images/branding/lockups/1x/lockup_trends_color_142x24dp.png" alt="Google Trends">
+    
+      <div class="title ng-binding">El cometa Diablo</div>
+      <div class="traffic-count ng-binding">2K+ searches</div>
+    
+      <div class="title ng-binding">Pumas  América</div>
+      <div class="traffic-count ng-binding">1M+ searches</div>
+    
+      <div class="title ng-binding">Tigres  Necaxa</div>
+      <div class="traffic-count ng-binding">200K+ searches</div>
+    
+      <div class="title ng-binding">Leon vs</div>
+      <div class="traffic-count ng-binding">100K+ searches</div>
+    
+      <img src="https://www.gstatic.com/images/branding/lockups/1x/lockup_trends_color_142x24dp.png" alt="Google Trends">
+    

@@ -1,0 +1,17 @@
+
+      <img src="https://www.gstatic.com/images/branding/lockups/1x/lockup_trends_color_142x24dp.png" alt="Google Trends">
+    
+      <div class="title ng-binding">Lakers</div>
+      <div class="traffic-count ng-binding">500K+ searches</div>
+    
+      <div class="title ng-binding">Knicks</div>
+      <div class="traffic-count ng-binding">200K+ searches</div>
+    
+      <div class="title ng-binding">Timberwolves</div>
+      <div class="traffic-count ng-binding">200K+ searches</div>
+    
+      <div class="title ng-binding">Cavs</div>
+      <div class="traffic-count ng-binding">100K+ searches</div>
+    
+      <img src="https://www.gstatic.com/images/branding/lockups/1x/lockup_trends_color_142x24dp.png" alt="Google Trends">
+    

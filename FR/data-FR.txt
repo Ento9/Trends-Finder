@@ -1,0 +1,17 @@
+
+      <img src="https://www.gstatic.com/images/branding/lockups/1x/lockup_trends_color_142x24dp.png" alt="Google Trends">
+    
+      <div class="title ng-binding">Anne Parillaud</div>
+      <div class="traffic-count ng-binding">50K+ searches</div>
+    
+      <div class="title ng-binding">Liege Bastogne liege</div>
+      <div class="traffic-count ng-binding">20K+ searches</div>
+    
+      <div class="title ng-binding">Voyage Laurent Wauquiez au Japon</div>
+      <div class="traffic-count ng-binding">10K+ searches</div>
+    
+      <div class="title ng-binding">Russie Ukraine</div>
+      <div class="traffic-count ng-binding">10K+ searches</div>
+    
+      <img src="https://www.gstatic.com/images/branding/lockups/1x/lockup_trends_color_142x24dp.png" alt="Google Trends">
+    
