@@ -24,29 +24,29 @@ echo "   ░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░░�
 echo ""
 echo "--------------------------------------------------------------------------------"
 echo "Trends Finder, Programs Lauched (Recommended Size for width: 80 Characters)"
-echo "----**BY ENTO9**----------------------------------------------------------------"
+echo "----**BY ENTO9**---V0.2------------------------------------------------------------"
 echo ""
 echo "(CA) Get Info..."
 
-python3 CA-search.py
+./dist/CA-search
 
 echo "(CA) Finished! 1/4"
 
 echo "(US) Get Info..."
 
-python3 US-search.py
+./dist/US-search
 
 echo "(US) Finished! 2/4"
 
 echo "(MX) Get Info..."
 
-python3 MX-search.py
+./dist/MX-search
 
 echo "(MX) Finished! 3/4"
 
 echo "(FR) Get Info..."
 
-python3 FR-search.py
+./dist/FR-search
 
 echo "(FR) Finished! 4/4"
 
