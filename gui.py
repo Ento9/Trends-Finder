@@ -18,7 +18,7 @@ def extraire_donnees_en_string(nom_fichier):
     for titre, recherche in resultats:
 
         recherche = recherche.replace('searches', '').strip()
-        donnees_string += f"{titre} - {recherche} searches\n"
+        donnees_string += f"{titre} - {recherche}\n"
     
     return donnees_string
 
@@ -63,9 +63,9 @@ def analyse():
     subprocess.Popen(["x-terminal-emulator", "-e", "bash", "-c", commande])
 
 root = tk.Tk()
-root.resizable(0,0)
+#root.resizable(0,0)
 
-root.geometry("600x750")
+root.geometry("400x320")
 root.title("Trends Finder V0.2 & GUI")
 
 menu = tk.Menu(root)
@@ -75,35 +75,36 @@ link_menu.add_command(label='Project Page', command=url)
 menu.add_cascade(label='Link', menu=link_menu)
 
 label = tk.Label(root, text="Trends Finder", font=('Arial', 20, "bold"))
-label.pack(padx=20, pady=20)
+label.grid(row=1, column=1)
 
 label3 = tk.Label(root, text="By Ento9", font=('Arial', 8))
-label3.pack()
+label3.grid(row=2, column=1)
 label3.config(bg= "gray51", fg= "white")
 
 label2 = tk.Label(root, text="Data:", font=('Arial', 15))
-label2.pack(padx=20, pady=5)
+label2.grid(row=3, column=1)
 
-textbox = tk.Text(root)
-textbox.pack(padx=20, pady=20)
+textbox = tk.Text(root, font=('Arial', 15), width=35, height=5)
+textbox.grid(row=4, column=1)
 
 
 button = tk.Button(root, text="Analyze", command=analyse, font=('Arial', 15), width=15, height=1)
-button.pack()
+button.grid(row=6, column=1)
 
-buttonCA = tk.Button(root, text="View Canada", command=dataCA, font=('Arial', 10))
-buttonCA.pack()
+buttonframe = Frame(root)
+buttonframe.grid(row=5, column=0, columnspan=2) 
 
-buttonUS = tk.Button(root, text="View USA", command=dataUS, font=('Arial', 10))
-buttonUS.pack()
+buttonCA = tk.Button(buttonframe, text="View Canada", command=dataCA, font=('Arial', 10)).grid(row=0, column=0)
 
-buttonMX = tk.Button(root, text="View Mexico", command=dataMX, font=('Arial', 10))
-buttonMX.pack()
+buttonUS = tk.Button(buttonframe, text="View USA", command=dataUS, font=('Arial', 10)).grid(row=0, column=1)
 
-buttonFR = tk.Button(root, text="View France", command=dataFR, font=('Arial', 10))
-buttonFR.pack()
+buttonMX = tk.Button(buttonframe, text="View Mexico", command=dataMX, font=('Arial', 10)).grid(row=0, column=2)
+
+buttonFR = tk.Button(buttonframe, text="View France", command=dataFR, font=('Arial', 10)).grid(row=0, column=3)
 
 root.configure(menu=menu)
+
+textbox.config(state="disabled")
 
 root.mainloop()
 
