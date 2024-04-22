@@ -16,7 +16,7 @@ To initiate Trends Finder, follow these steps:
 
     ```bash
         
-    sudo chmod +x RUN &&./RUN
+    sudo chmod +x RUN && ./RUN
     
     ```
 
