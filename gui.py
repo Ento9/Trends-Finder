@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import *
+import subprocess
 import webbrowser
 import os
 import re
@@ -58,7 +59,8 @@ def dataFR():
     
 
 def analyse():
-    os.system('./RUN')
+    commande = "./RUN"
+    subprocess.Popen(["x-terminal-emulator", "-e", "bash", "-c", commande])
 
 root = tk.Tk()
 root.resizable(0,0)
