@@ -12,8 +12,10 @@ To initiate Trends Finder, follow these steps:
    
 2. **Installation**: Ensure you have the necessary dependencies installed on your system.
 
-3. **Execution**: Navigate to the directory containing the Trends Finder files and execute the `RUN` file using the following command:
-
+3.2. **Execution**: Navigate to the directory containing the Trends Finder files and execute the `RUN` file using the following command:
+   ```bash
+    sudo chmod +x RUN
+    ```
     ```bash
     ./RUN
     ```
