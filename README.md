@@ -26,7 +26,8 @@ To initiate Trends Finder, follow these steps:
 
 - Operating System: Linux, Mac, Windows.
 - Python 3.10.12
-- Selenium, Webdriver_manager
+- Selenium, Webdriver_manager, Tkinter
+-Google Chrome
 
 ## License
 
